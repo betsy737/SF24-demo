@@ -1,0 +1,283 @@
+#main-container {
+	width: 420px;
+	height: 420px;
+	background-color: none;
+	margin-top:3%;
+	margin-left: 30%;
+	z-index:-10;
+	
+}
+
+.nucleus {
+	z-index:1;
+	position: relative;
+	left: 40px;
+	top: 100px;
+	transition-duration:1.5s;
+	-webkit-transition-duration:1.5s;
+		-moz-transition-duration:1.5s;
+	-ms-transition-duration:1.5s;
+	-o-transition-duration:1.5s;
+
+	}
+
+.nucEnlarge{
+	transform:scale(1.2,1.2);
+	-webkit-transform:scale(1.2,1.2);
+		-moz-transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	-ms-transform:scale(1.2,1.2);
+
+	}
+
+#orbit-container{
+	-webkit-transition-duration:2s;
+	-moz-transition-duration:2s;
+	-ms-transition-duration:2s;
+	-o-transition-duration:2s;
+	transition-duration:2s;
+	}
+	
+#orbit-container.rotate{
+	-webkit-transform:rotate(1080deg);
+	-moz-transform:rotate(1080deg);
+	-o-transform:rotate(1080deg);
+-ms-transform:rotate(1080deg);
+transform:rotate(1080deg);
+	
+	}
+	
+
+
+#orbitRing1 {
+	background-color:none;
+	border:solid 4px #999;
+transform:  translate(40px,-130px) skew(30deg,40deg) ;
+	-webkit-transform: translate(40px,-130px) skew(30deg,40deg);
+	-moz-transform: translate(40px,-130px) skew(30deg,40deg);
+	-o-transform:  translate(40px,-130px) skew(30deg,40deg) ;
+	-ms-transform:  translate(40px,-130px) skew(30deg,40deg) ;
+	-webkit-border-radius:400px;
+	-moz-border-radius:400px;
+	-o-border-radius:400px;
+	-ms-border-radius:400px;
+border-radius:400px;
+	width:280px;
+	height:280px;	
+	position:absolute;
+
+}
+
+
+.orbitRing2 {
+background-color:none;
+	border:solid 4px #999;
+	-webkit-transform: translate(40px,-140px) skew(-30deg,-40deg);
+	-moz-transform:translate(40px,-140px) skew(-30deg,-40deg);
+	-o-transform: translate(40px,-140px) skew(-30deg,-40deg) ;
+	-ms-transform: translate(40px,-140px) skew(-30deg,-40deg);
+transform:translate(40px,-140px) skew(-30deg,-40deg) ;
+	-webkit-border-radius:400px;
+	-moz-border-radius:400px;
+	-o-border-radius:400px;
+	-ms-border-radius:400px;
+border-radius:400px;
+	width:290px;
+	height:290px;	
+	position:absolute;
+}
+
+
+.orbitRing3{
+	position:absolute;
+	   background-color:none;
+	border:solid 4px #999;
+	-webkit-transform: translate(-60px,-150px) rotateY(180deg) rotateX(97deg);
+	-moz-transform: translate(-60px,-170px) rotateY(180deg) rotateX(97deg);
+	-o-transform: translate(-60px,-170px) rotateY(180deg) rotateX(97deg);
+	-ms-transform:translate(-60px,-170px) rotateY(180deg) rotateX(97deg);
+transform: translate(-60px,-170px) rotateY(180deg) rotateX(97deg);
+	-webkit-border-radius:400px;
+	-moz-border-radius:400px;
+	-o-border-radius:400px;
+	-ms-border-radius:400px;
+border-radius:400px;
+	width:475px;
+	height:320px;
+}
+
+
+.Atom_Resume a{
+	width:65px;
+	height:65px;
+	text-decoration:none;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	-ms-border-radius:100px;
+	position:absolute;
+	background-color:#FF9900;
+	opacity:.92;
+	transform:translate(0px,-200px);
+	-webkit-transform:translate(0px,-200px);
+	-moz-transform:translate(0px,-200px);
+	-o-transform:translate(0px,-200px);
+	-ms-transform:translate(0px,-200px);
+	display: block;
+	text-align: center;
+	color: #CCC;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 60px;
+transition-duration:.5s;
+	-webkit-transition-duration:.5s;
+	-moz-transition-duration:.5s;
+	-o-transition-duration:.5s;
+	-ms-transition-duration:.5s;
+}
+
+.Atom_Resume a:hover{
+	transform:scale(1.5,1.5) translate(0px,-130px);
+	-webkit-transform:scale(1.5,1.5) translate(0px,-130px);
+	-moz-transform:scale(1.5,1.5) translate(0px,-130px);
+	-ms-transform:scale(1.5,1.5) translate(0px,-130px);
+	-o-transform:scale(1.5,1.5) translate(0px,-130px);
+	cursor:pointer;
+	color:#FFF;
+	text-decoration:none;
+	opacity:1;}
+	
+
+
+.Atom_CL a{
+	width:66px;
+	height:66px;
+	text-decoration:none;
+	text-align: center;
+	color: #CCC;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	-ms-border-radius:100px;
+	position:absolute;
+	background-color:#0066CC;
+	opacity:.92;
+	transform:translate(300px,-200px);
+	-webkit-transform:translate(300px,-200px);
+	-moz-transform:translate(300px,-200px);
+	-o-transform:translate(300px,-200px);
+	-ms-transform:translate(300px,-200px);
+	transition-duration:.5s;
+	-webkit-transition-duration:.5s;
+	-moz-transition-duration:.5s;
+	-o-transition-duration:.5s;
+	-ms-transition-duration:.5s;
+	vertical-align: baseline;
+	display: inline-block;
+}
+	
+.Atom_CL a:hover{
+	transform:scale(1.5,1.5) translate(210px,-135px);
+	-webkit-transform:scale(1.5,1.5) translate(210px,-135px);
+	-moz-transform:scale(1.5,1.5) translate(210px,-135px);
+	-ms-transform:scale(1.5,1.5) translate(210px,-135px);
+	-o-transform:scale(1.5,1.5) translate(210px,-135px);
+	cursor:pointer;
+	color:#FFF;
+	text-decoration:none;
+	opacity:1;}
+	
+	
+.Atom_Samples a{
+	width:67px;
+	height:67px;
+	text-decoration:none;
+	text-align: center;
+	color: #CCC;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	-ms-border-radius:100px;
+	position:absolute;
+	background-color:#0066CC;
+	opacity:.92;
+transform:translate(0px,140px);
+	-webkit-transform:translate(0px,140px);
+	-moz-transform:translate(0px,140px);
+	-o-transform:translate(0px,140px);
+	-ms-transform:translate(0px,140px);
+	transition-duration:.5s;
+	-webkit-transition-duration:.5s;
+	-moz-transition-duration:.5s;
+	-o-transition-duration:.5s;
+	-ms-transition-duration:.5s;
+	vertical-align: baseline;
+	display: inline-block;}
+	
+	.Atom_Samples a:hover{
+	transform:scale(1.5,1.5) translate(-5px,100px);
+	-webkit-transform:scale(1.5,1.5) translate(-5px,100px);
+	-moz-transform:scale(1.5,1.5) translate(-5px,100px);
+	-ms-transform:scale(1.5,1.5) translate(-5px,100px);
+	-o-transform:scale(1.5,1.5) translate(-5px,100px);
+	cursor:pointer;
+	color:#FFF;
+	text-decoration:none;
+	opacity:1;}
+	
+	
+	
+.Atom_Contact a{
+	width:65px;
+	height:65px;
+	text-decoration:none;
+	text-align: center;
+	color: #CCC;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 60px;
+border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	-ms-border-radius:100px;
+	position:absolute;
+background-color:#FF9900;
+	opacity:.92;
+transform:translate(300px,150px);
+	-webkit-transform:translate(300px,150px);
+	-moz-transform:translate(300px,150px);
+	-o-transform:translate(300px,150px);
+	-ms-transform:translate(300px,150px);
+	transition-duration:.5s;
+	-webkit-transition-duration:.5s;
+	-moz-transition-duration:.5s;
+	-o-transition-duration:.5s;
+	-ms-transition-duration:.5s;}
+	
+	
+	
+	.Atom_Contact a:hover{
+	transform:scale(1.5,1.5) translate(210px,100px);
+	-webkit-transform:scale(1.5,1.5) translate(210px,100px);
+	-moz-transform:scale(1.5,1.5) translate(210px,100px);
+	-ms-transform:scale(1.5,1.5) translate(210px,100px);
+	-o-transform:scale(1.5,1.5) translate(210px,100px);
+	cursor:pointer;
+	color:#FFF;
+	text-decoration:none;
+	opacity:1;}
+	
+	
+.disappear{
+	opacity:0;}
+	

@@ -1,0 +1,92 @@
+.CLholder {
+	font:Arial, Helvetica, sans-serif;
+	padding-top: 0%;
+	padding-left: 10%;
+	padding-bottom:100px;
+}
+
+
+.CLholder ul {
+	border:solid 1px #E1E1E1;
+	width:110px;
+	margin-right:50px;
+	height:200px;
+	list-style-type: none;
+	display:inline-block;
+	background:#fefefe;
+	background:-moz-linear-gradient(top,#fefefe 0,#fbfbfb 20%,#ececec 70%,#d6d6d6 98%,#dedede 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fefefe),color-stop(20%,#fbfbfb),color-stop(70%,#ececec),color-stop(98%,#d6d6d6),color-stop(100%,#dedede));
+	background:-webkit-linear-gradient(top,#fefefe 0,#fbfbfb 20%,#ececec 70%,#d6d6d6 98%,#dedede 100%);
+	background:-o-linear-gradient(top,#fefefe 0,#fbfbfb 20%,#ececec 70%,#d6d6d6 98%,#dedede 100%);
+	background:-ms-linear-gradient(top,#fefefe 0,#fbfbfb 20%,#ececec 70%,#d6d6d6 98%,#dedede 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe',endColorstr='#d6d6d6',GradientType=0);
+}
+
+.CLholder ul img{
+	vertical-align: top;
+	display: compact;
+	text-align: center;
+	opacity:.75;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin-left: -55px;
+	margin-top: -20px;
+	}
+
+
+/*.CLholder ul li {
+	float: left;
+	width: 100px;
+	height: 120px;
+	margin-right:60px;
+	border: 1.5px solid #ABABAB;
+	position: relative;
+	background-color: #E8E8E8;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}*/
+
+.CLholder ul li p{
+	float: left;
+	margin-right:0px;
+	width:150px;
+	margin-top:175px;
+	position: relative;
+	font-size:13px;
+	display: inherit;
+	overflow: hidden;
+	white-space: pre;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	margin-left: -34px;
+}
+
+
+/*.CLholder ul li ul {
+position: absolute;
+	display: block;
+	font-size: 13px;
+	padding-left:40px;
+	color:#03F;
+	text-decoration:none;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.6);
+}*/
+
+.CLholder ul li a {
+	vertical-align:bottom;
+	display:inline;
+	font-size: 13px;
+	padding-right:8px;
+	color:#03F;
+	text-decoration:none;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.6);
+}
+
+
+
+.CLholder ul li a:hover {
+	text-decoration:underline;
+
+}

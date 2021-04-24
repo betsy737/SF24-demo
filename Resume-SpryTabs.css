@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+
+.TabbedPanels {
+	clear: none;
+	width: 83%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+	float: none;
+padding-left:10%;}
+
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 0px;
+	float: left;
+	color:white;
+	background:#057CAB;
+	list-style: none;
+	border-top: solid 1px #666;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	margin-top: 0px;
+	margin-right: 40px;
+	margin-bottom: -1px;
+	margin-left: -40px;
+	padding-top: 15px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+}
+
+
+.TabbedPanelsTabHover {
+	background-color: #FFF;
+	color:#36C;
+
+}
+
+
+.TabbedPanelsTabSelected {
+	background-color: white;
+	color:black;
+	font-weight:500;
+	border-bottom: none;
+}
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	/*border-bottom: solid 1px #CCC;
+	border-top: solid 1px #CCC;*/
+	border-bottom:solid 1px #CCC;
+	background-color: #FFF;
+	padding-top: 15px;
+}
+
+
+.TabbedPanelsContent {
+	overflow: scroll;
+	padding-top: 50px;
+	padding-right: 0px;
+	height:500px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+/* This selector is an example of how to change the appearnce of the currently
+ * active container panel. The class "TabbedPanelsContentVisible" is
+ * programatically added and removed from the content element as the panel
+ * is activated/deactivated.
+ */
+.TabbedPanelsContentVisible {
+}
+
+
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}
